@@ -1,0 +1,21 @@
+# LANDFIRE raster outputs — regenerable on demand, excluded from version control
+RawData/*.tif
+RawData/*.tfw
+RawData/*.aux.xml
+RawData/*.zip
+RawData/*.xml
+
+# Processed outputs
+Processed/*.tif
+Processed/*.tfw
+Processed/*.aux.xml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# OS
+.DS_Store
+Thumbs.db
